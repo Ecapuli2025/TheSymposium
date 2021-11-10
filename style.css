@@ -1,0 +1,175 @@
+
+body{
+    background-color: rgb(115, 49, 34);
+}
+
+.normaltext{
+    font-family: 'EB Garamond', serif;
+    text-align: justify;
+    font-size: 20px;
+    text-indent: 30px;
+    margin-top: 5px;
+}
+
+.titletext{
+    font-family: 'Zen Antique Soft', serif;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.contentimage{
+    width: 600px;
+    padding: 15px;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+/*HEADER SECTION*/
+
+#parallaxheader{
+    background-image: url(Assets/SchoolOfAthens.png);
+    max-height: 800px;
+    min-height: 500px;
+    max-width: 1095px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#parallaxheadertextcontainer{
+    position: absolute;
+    height: 280px;
+    width: 800px;
+    margin-top: 110px;
+    margin-bottom: 60px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-left: auto;
+    padding-right: auto;
+    background-color: rgba(0,0,0,0.8);
+}
+
+#parallaxheadertitle{
+    padding-top: 20px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Zen Antique Soft', serif;
+    color: aliceblue;
+    font-size: 80px;
+    text-shadow: text-shadow: 2px 2px #ff0000;
+}
+
+#parallaxheadertext{
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    color: aliceblue;
+    font-size: 30px;
+    text-shadow: text-shadow: 2px 2px #ff0000;
+}
+
+
+/*NAVIGATION BAR SECTION*/
+
+#navbar{
+    width: 1095px;
+    font-size: 100px;
+    background-color: rgba(0,0,0, 0.7); /*bg color for navbar*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+            
+li {
+    font-family: 'EB Garamond', serif;
+    float: left;
+}
+            
+li a {
+    font-family: 'EB Garamond', serif;
+    display: block;
+    color: black; /*text color for navbar*/
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+            
+li a:hover {
+    font-family: 'EB Garamond', serif;;
+    background-color: rgba(85,101,116,0.7);
+    color: white;
+}
+
+#container{
+    width: 1095px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+                
+}
+
+/* CONTENT */
+
+#maincontent{
+    width: 730px;
+    background-color: rgba(242, 242, 242, 0.85);
+    float: left;
+}
+
+.content{
+    padding: 20px;
+    margin: 20px;
+}
+            
+#sidecontent{
+    font-family: 'Varela Round', sans-serif;
+    width: 365px;
+    background-color: rgba(242, 242, 242,0.8);
+    float: left;
+}
+
+.sidecontentimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 150px;
+}
+
+/* FOOTER */
+
+#footer{
+    margin-top: 40px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1055px;
+    background-color: rgb(205,92,92);
+}
+
+
+
+
